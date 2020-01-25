@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm install && open http://localhost:8080 && nodemon index.js"
+    "start": "npm install && open http://localhost:8080 && nodemon index.js",
+    "startLegacy": "npm install && node index.js"
   },
   "repository": {
     "type": "git",
