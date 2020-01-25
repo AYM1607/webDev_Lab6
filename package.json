@@ -4,7 +4,8 @@
   "description": "A blog CRUD API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install && open http://localhost:8080 && nodemon index.js"
   },
   "repository": {
     "type": "git",
